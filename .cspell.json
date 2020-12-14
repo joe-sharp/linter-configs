@@ -9,6 +9,7 @@
         ".vscode",
         "report",
         ".**/**",
+        "**/linters/**",
         "Gemfile**",
         "Vagrantfile",
         "package-lock.json",
@@ -22,6 +23,11 @@
         "eslintignore",
         "tagname",
         "htmlhint",
-        "submodule"
+        "submodule",
+        "copypaste",
+        "fkirc",
+        "gitdir",
+        "nvuillam",
+        "stefanzweifel"
     ]
 }
