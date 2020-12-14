@@ -18,11 +18,10 @@
     "words": [
         "sitename",
         "treehouse",
-        "Treehouse",
         "editorconfig",
         "eslintignore",
         "tagname",
-        "HTMLHINT",
-        "Submodule"
+        "htmlhint",
+        "submodule"
     ]
 }
