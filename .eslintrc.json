@@ -1,0 +1,22 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:vue/essential",
+        "standard"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 2019,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "vue"
+    ],
+    "rules": {
+      "no-unused-vars": [2, {"args": "after-used", "varsIgnorePattern": "^_"}],
+      "key-spacing": [2, {"align": {"beforeColon": false, "afterColon": true, "on": "value", "mode": "minimum"}}],
+      "no-multi-spaces": [2, {"ignoreEOLComments": true, "exceptions": {"VariableDeclarator": true, "SwitchCase": true}}]
+    }
+}
