@@ -17,14 +17,7 @@
         "**/dist/**"
     ],
     "words": [
-        "sitename",
-        "treehouse",
-        "editorconfig",
         "eslintignore",
-        "tagname",
-        "htmlhint",
-        "submodule",
-        "copypaste",
         "fkirc",
         "gitdir",
         "nvuillam",
