@@ -1,6 +1,5 @@
 {
-    "version": 0.1,
-    "verbose": true,
+    "version": "0.1",
     "language": "en",
     "ignorePaths": [
         "**/node_modules/**",
@@ -28,6 +27,8 @@
         "fkirc",
         "gitdir",
         "nvuillam",
-        "stefanzweifel"
+        "stefanzweifel",
+        "Arduini",
+        "Arduinos"
     ]
 }
