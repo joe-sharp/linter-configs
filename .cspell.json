@@ -1,6 +1,5 @@
 {
     "version": 0.1,
-    "verbose": true,
     "language": "en",
     "ignorePaths": [
         "**/node_modules/**",
