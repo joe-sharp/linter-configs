@@ -64,6 +64,7 @@
         "tput",
         "ungit",
         "workrc",
-        "zdharma"
+        "zdharma",
+        "Cyclomatic"
     ]
 }
