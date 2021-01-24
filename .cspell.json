@@ -1,6 +1,7 @@
 {
     "version": "0.1",
     "language": "en",
+    "allowCompoundWords": true,
     "ignorePaths": [
         "**/node_modules/**",
         "**/vscode-extension/**",
