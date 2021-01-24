@@ -65,6 +65,10 @@
         "ungit",
         "workrc",
         "zdharma",
-        "Cyclomatic"
+        "Cyclomatic",
+        "JUUL",
+        "juul",
+        "shuf",
+        "rando"
     ]
 }
