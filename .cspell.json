@@ -1,6 +1,7 @@
 {
     "version": "0.1",
     "language": "en",
+    "allowCompoundWords": true,
     "ignorePaths": [
         "**/node_modules/**",
         "**/vscode-extension/**",
@@ -8,7 +9,7 @@
         ".vscode",
         "report",
         ".**/**",
-        "**/linters/**",
+        ".gitignore",
         "Gemfile**",
         "Vagrantfile",
         "package-lock.json",
@@ -16,14 +17,7 @@
         "**/dist/**"
     ],
     "words": [
-        "sitename",
-        "treehouse",
-        "editorconfig",
         "eslintignore",
-        "tagname",
-        "htmlhint",
-        "submodule",
-        "copypaste",
         "fkirc",
         "gitdir",
         "nvuillam",
@@ -34,7 +28,6 @@
         "Aquilina",
         "Binstubs",
         "MOTD",
-        "Overide",
         "Postgres",
         "RBENV",
         "RIPGREP",
