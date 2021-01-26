@@ -15,7 +15,8 @@
         "Vagrantfile",
         "package-lock.json",
         "webpack.config.babel.js",
-        "**/dist/**"
+        "**/dist/**",
+        "vimrc"
     ],
     "words": [
         "eslintignore",
