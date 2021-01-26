@@ -3,6 +3,7 @@
     "language": "en",
     "allowCompoundWords": true,
     "ignorePaths": [
+        ".cspell.json",
         "**/node_modules/**",
         "**/vscode-extension/**",
         "**/.git/**",
