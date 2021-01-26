@@ -3,6 +3,7 @@
     "language": "en",
     "allowCompoundWords": true,
     "ignorePaths": [
+        ".cspell.json",
         "**/node_modules/**",
         "**/vscode-extension/**",
         "**/.git/**",
@@ -14,7 +15,8 @@
         "Vagrantfile",
         "package-lock.json",
         "webpack.config.babel.js",
-        "**/dist/**"
+        "**/dist/**",
+        "vimrc"
     ],
     "words": [
         "eslintignore",
