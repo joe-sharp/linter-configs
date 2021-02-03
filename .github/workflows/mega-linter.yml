@@ -45,7 +45,7 @@ jobs:
           # https://nvuillam.github.io/mega-linter/configuration/
           VALIDATE_ALL_CODEBASE: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }} # Validates all source when push on main, else just the git diff with main. Override with true if you always want to lint all sources
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          MEGALINTER_CONFIG: https://raw.githubusercontent.com/joe-sharp/linter-configs/main/.mega-linter.yml
+          MEGALINTER_CONFIG: https://raw.githubusercontent.com/joe-sharp/linter-configs/update_cspell/.mega-linter.yml
 
       # Upload Mega-Linter artifacts
       - name: Archive production artifacts
