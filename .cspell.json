@@ -14,7 +14,9 @@
         "Vagrantfile",
         "package-lock.json",
         "webpack.config.babel.js",
-        "vimrc"
+        "vimrc",
+        "zshenv",
+        "zshrc"
     ],
     "words": [
         "eslintignore",
