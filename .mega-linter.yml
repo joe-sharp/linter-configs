@@ -17,3 +17,4 @@ ADDITIONAL_EXCLUDED_DIRECTORIES:
 DISABLE_LINTERS:
   - JAVASCRIPT_STANDARD
 LINTER_RULES_PATH: https://raw.githubusercontent.com/joe-sharp/linter-configs/test_rubocop
+RUBY_RUBOCOP_CONFIG_FILE: .rubocop.yml
