@@ -48,7 +48,8 @@ jobs:
           # https://nvuillam.github.io/mega-linter/configuration/
           VALIDATE_ALL_CODEBASE: true # ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          MEGALINTER_CONFIG: https://raw.githubusercontent.com/joe-sharp/linter-configs/main/.mega-linter.yml
+          MEGALINTER_CONFIG: https://raw.githubusercontent.com/joe-sharp/linter-configs/update_and_prettier/.mega-linter.yml
+          LINTER_RULES_PATH: https://raw.githubusercontent.com/joe-sharp/linter-configs/update_and_prettier
 
       # Upload Mega-Linter artifacts
       - name: Archive production artifacts
