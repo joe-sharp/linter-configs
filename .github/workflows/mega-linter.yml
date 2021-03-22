@@ -43,7 +43,7 @@ jobs:
         env:
           # All available variables are described in documentation
           # https://nvuillam.github.io/mega-linter/configuration/
-          VALIDATE_ALL_CODEBASE: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }} # Validates all source when push on main, else just the git diff with main. Override with true if you always want to lint all sources
+          VALIDATE_ALL_CODEBASE: true # ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MEGALINTER_CONFIG: https://raw.githubusercontent.com/joe-sharp/linter-configs/main/.mega-linter.yml
 
