@@ -1,4 +1,5 @@
 ---
+
 Layout/LineLength:
   Enabled: true
   Max: 120
