@@ -1,3 +1,4 @@
+---
 Layout/LineLength:
   Enabled: true
   Max: 120
@@ -14,12 +15,11 @@ Metrics/MethodLength:
 Metrics/PerceivedComplexity:
   Max: 10
 # Pending
-#Style/HashEachMethods:
+# Style/HashEachMethods:
 #  Enabled: true
 
-#Style/HashTransformKeys:
+# Style/HashTransformKeys:
 #  Enabled: true
 
-#Style/HashTransformValues:
+# Style/HashTransformValues:
 #  Enabled: true
-
