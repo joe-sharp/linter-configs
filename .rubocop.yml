@@ -13,7 +13,6 @@ Metrics/MethodLength:
 
 Metrics/PerceivedComplexity:
   Max: 10
-
 # Pending
 #Style/HashEachMethods:
 #  Enabled: true
