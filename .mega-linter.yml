@@ -18,6 +18,7 @@ DISABLE_LINTERS:
   - JAVASCRIPT_STANDARD
 LINTER_RULES_PATH: https://raw.githubusercontent.com/joe-sharp/linter-configs/main
 RUBY_RUBOCOP_CONFIG_FILE: .rubocop.yml
+YAML_YAMLLINT_CONFIG_FILE: .yamllint.yml
 PRE_COMMANDS:
   - command: sed -i "s/- 'tmp\/\*\*\/\*'//g" $(rubocop -d --force-default-config -v | grep Default | awk '{print $4}')
     cwd: "root"
