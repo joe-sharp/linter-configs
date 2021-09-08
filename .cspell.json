@@ -16,7 +16,7 @@
     "webpack.config.babel.js",
     "gitconfig",
     "gitignore",
-    "vimrc",
+    "vim/vimrc",
     "zshenv",
     "zshrc"
   ],
