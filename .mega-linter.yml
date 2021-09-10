@@ -15,6 +15,7 @@ FILEIO_REPORTER: false
 ADDITIONAL_EXCLUDED_DIRECTORIES:
   - plugged
   - _site
+  - report
 DISABLE_LINTERS:
   - JAVASCRIPT_STANDARD
 LINTER_RULES_PATH: https://raw.githubusercontent.com/joe-sharp/linter-configs/main
