@@ -22,6 +22,7 @@ LINTER_RULES_PATH: https://raw.githubusercontent.com/joe-sharp/linter-configs/ma
 RUBY_RUBOCOP_CONFIG_FILE: .rubocop.yml
 YAML_YAMLLINT_CONFIG_FILE: .yamllint.yml
 SPELL_CSPELL_ARGUMENTS: --no-must-find-files
+CREDENTIALS_FILTER_REGEX_EXCLUDE: report
 PRE_COMMANDS:
   - command: sed -i "s/- 'tmp\/\*\*\/\*'//g" $(rubocop -d --force-default-config -v | grep Default | awk '{print $4}')
     cwd: "root"
