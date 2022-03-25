@@ -9,7 +9,7 @@
     "**/vscode-extension/**",
     "**/.git/**",
     "**/dist/**",
-    "**.sh"
+    "**.sh",
     "report",
     "Gemfile**",
     "Vagrantfile",
