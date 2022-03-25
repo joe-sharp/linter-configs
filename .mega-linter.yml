@@ -22,7 +22,7 @@ LINTER_RULES_PATH: https://raw.githubusercontent.com/joe-sharp/linter-configs/ma
 RUBY_RUBOCOP_CONFIG_FILE: .rubocop.yml
 YAML_YAMLLINT_CONFIG_FILE: .yamllint.yml
 
-BASH_SHFMT_ARGUMENTS: -i 2 -kp
+BASH_SHFMT_ARGUMENTS: -i 2 -kp -sr
 SPELL_CSPELL_ARGUMENTS: --no-must-find-files
 CREDENTIALS_FILTER_REGEX_EXCLUDE: report
 PRE_COMMANDS:
