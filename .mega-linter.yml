@@ -1,6 +1,6 @@
 ---
 # Configuration file for Mega-Linter
-# See all available variables at https://nvuillam.github.io/mega-linter/configuration/ and in linters documentation
+# See all available variables at https://megalinter.github.io/configuration/ and in linters documentation
 
 PRINT_ALPACA: false
 # APPLY_FIXES: all # all, none, or list of linter keys
